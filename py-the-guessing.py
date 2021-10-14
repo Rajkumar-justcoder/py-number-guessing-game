@@ -30,6 +30,6 @@ while count < math.log(higher - lower + 1, 2):
 		print(Fore.BLUE + "You guessed too small!")
 	elif x < guess:
 		print(Fore.BLUE + "You Guessed too high!")
-
+#made by Stack Coder https://github.com/Rajkumar-stackcoder/
 if count >= math.log(higher - lower + 1, 2):
 	print(Fore.BLUE + "\n The number is %d" % x)
